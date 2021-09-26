@@ -1,4 +1,4 @@
-package org.dddcommunity.sample.infra.action;
+package org.dddcommunity.sample.infra.cqs;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.ApplicationContext;

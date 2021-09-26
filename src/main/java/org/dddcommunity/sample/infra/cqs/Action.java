@@ -1,4 +1,4 @@
-package org.dddcommunity.sample.infra.action;
+package org.dddcommunity.sample.infra.cqs;
 
 import java.io.Serializable;
 

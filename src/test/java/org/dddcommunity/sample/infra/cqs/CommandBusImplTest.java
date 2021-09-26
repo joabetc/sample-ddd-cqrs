@@ -1,4 +1,4 @@
-package org.dddcommunity.sample.infra.action;
+package org.dddcommunity.sample.infra.cqs;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
