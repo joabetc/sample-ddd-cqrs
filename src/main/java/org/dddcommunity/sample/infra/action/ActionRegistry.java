@@ -24,8 +24,8 @@ abstract class ActionRegistry<A extends Action, H extends ActionHandler<A, ?>, P
         handlerProviderMap.put(actionType, getHandlerProvider(applicationContext, handlerClass));
     }
 
-    H get(Class<? extends A> commandClass) {
-        return handlerProviderMap.get(commandClass).get();
+    H get(Class<? extends A> actionClass) {
+        return handlerProviderMap.get(actionClass).get();
     }
 
     protected abstract String[] getBeanNames(ApplicationContext applicationContext);
